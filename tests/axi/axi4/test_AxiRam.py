@@ -87,7 +87,7 @@ def test_AxiRam(parameters):
         parameters=parameters,
         extra_env=parameters,
         extra_vhdl_sources={
-            "surf": [
+            "surf: [
                 "axi/axi4/ip_integrator/SlaveAxiIpIntegrator.vhd",
                 "axi/axi4/ip_integrator/AxiRamIpIntegrator.vhd",
             ],
