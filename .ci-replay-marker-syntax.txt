@@ -1,0 +1,3 @@
+# CI replay marker for syntax/compileall
+feature_branch: replay-a93ee33c
+workflow: .github/workflows/surf_ci.yml
